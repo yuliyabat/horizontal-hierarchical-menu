@@ -15,6 +15,7 @@ This is an example of multi level hierarchical jQuery menu
 
 Prepare your HTML
 
+```html
 <ul class="h-menu">
 	<li><a href="#">Home</a></li>
     <li><a href="#">About Us</a></li>
@@ -46,12 +47,30 @@ Prepare your HTML
         </ul>
     </li>  
 </ul>
+```
+
+Init the awesome
+
+```javascript
+$(function() {
+   $('.h-menu').hMenu({});
+});
+```
 
 ## Options
 
-# Slide speed
+#### Slide speed
 
 $('.h-menu').waSlideMenu({
     slideSpeed: 500
 });
 By default 300.
+
+
+## Compatibility
+
+* IE9+
+* Google Chrome
+* Firefox
+* need feedback...
+
