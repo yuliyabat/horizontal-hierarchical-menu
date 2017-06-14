@@ -9,6 +9,19 @@ This is an example of multi level hierarchical jQuery menu
 
 ## Usage
 
+Link CSS
+
+```html
+<link rel="stylesheet" href="/path/to/hmenu.css">
+```
+
+Link JS *after* jQuery :
+
+```html
+<script src="/path/to/jquery.js" type="text/javascript"></script>
+<script src="/path/to/jquery.hmenu.js" type="text/javascript"></script>
+```
+
 Prepare your HTML
 
 ```html
