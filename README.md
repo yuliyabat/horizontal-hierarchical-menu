@@ -7,10 +7,6 @@ This is an example of multi level hierarchical jQuery menu
 
 
 
-## Demo
-
- - [menu demo](http://yuliyawebdevelopment.com/demos/hierarchical-menu/)
-
 ## Usage
 
 Prepare your HTML
@@ -66,7 +62,11 @@ $('.h-menu').waSlideMenu({
 });
 By default 300.
 
+## Demo
 
+ - [menu demo](http://yuliyawebdevelopment.com/demos/hierarchical-menu/)
+ 
+ 
 ## Compatibility
 
 * IE9+
