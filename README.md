@@ -13,11 +13,11 @@ Prepare your HTML
 
 ```html
 <ul class="h-menu">
-	<li><a href="#">Home</a></li>
+    <li><a href="#">Home</a></li>
     <li><a href="#">About Us</a></li>
     <li><a href="#">Services</a>
     	<ul>
-        	<li><a href="#">Services 1</a></li>
+            <li><a href="#">Services 1</a></li>
             <li><a href="#">Services 2</a>
                 <ul>
                     <li><a href="#">Services 2.1</a></li>
@@ -37,7 +37,7 @@ Prepare your HTML
     </li>
     <li><a href="#">Contact Us</a>
         <ul>
-        	<li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 1</a></li>
             <li><a href="#">Option 2</a></li>
             <li><a href="#">Option 3</a></li>  
         </ul>
@@ -57,10 +57,14 @@ $(function() {
 
 #### Slide speed
 
+```javascript
 $('.h-menu').waSlideMenu({
     slideSpeed: 500
 });
-By default 300.
+```
+
+By default ```300```.
+
 
 ## Demo
 
