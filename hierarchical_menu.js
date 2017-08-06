@@ -12,7 +12,6 @@
 		var base = this,
 		    settings = $.extend({
 		    	slideSpeed : 300
-
 		    }, options ); 
 		$(base).find('li').hover(
 			function(){
